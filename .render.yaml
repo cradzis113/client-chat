@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: client-chat
+    env: static
+    static:
+      directory: build
+      cleanUrls: true
